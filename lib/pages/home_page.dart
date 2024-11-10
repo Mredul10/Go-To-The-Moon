@@ -7,7 +7,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(child: Container(
-        child: _textWidget() ,
+        child: _astronautImage() ,
       ),),
     );
   }
@@ -26,7 +26,7 @@ class HomePage extends StatelessWidget {
     return Container(
       decoration: const BoxDecoration(
         image: DecorationImage(
-          image: AssetImage('assets\images\moon.jpg'),
+          image: AssetImage('assets/images/moon.jpg'),
 
         ),
       ),
