@@ -12,7 +12,7 @@ class MyGoMoonApp extends StatelessWidget {
     return MaterialApp(
       title: 'Go To Moon',
       theme: ThemeData(
-        scaffoldBackgroundColor: const Color.fromARGB(255, 224, 38, 109),
+        scaffoldBackgroundColor: Color.fromARGB(255, 26, 29, 43),
       ),
       home: const HomePage(),
     );
